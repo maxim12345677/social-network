@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-primary);
+  border-radius: 16px;
+  padding: 40px 20px;
+
+  /*   @include newBreakpoint(desktopS) {
+    min-height: 576px;
+  } */
+}
+
+.content {
+  max-width: 400px;
+}

@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  /*  @include newBreakpoint(desktopS) {
+    min-height: 100vh;
+  } */
+}
+
+.content {
+  flex: 1 1 auto;
+}

@@ -1,0 +1,60 @@
+*,
+*:before,
+*:after {
+  /*  box-sizing: border-box; */
+  outline: none;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* *::selection,
+*::-moz-selection {
+  color: color(white);
+  background: color(blue, 30);
+}
+*/
+body {
+  margin: 0;
+  background-color: #f0f2f5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  /* list-style-position: inside; */
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  /*   color: color(black); */
+}
+
+p {
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+}
+
+iframe {
+  border: 0;
+}
+
+html,
+body {
+  height: 100%;
+}

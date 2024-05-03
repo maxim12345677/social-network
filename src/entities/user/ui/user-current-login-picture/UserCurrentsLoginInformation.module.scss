@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  gap: 6px;
+}
+
+.user_photo {
+  width: 29px;
+  height: 29px;
+  background-color: var(--facebook-blue);
+  border-radius: 50%;
+  // потом тут фотка будет
+}

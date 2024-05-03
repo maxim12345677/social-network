@@ -1,0 +1,32 @@
+.list {
+  display: flex;
+  align-items: center;
+  height: 58px;
+}
+
+.list_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 22px 15px;
+}
+
+.list_item:hover {
+  border-bottom: 3px solid var(--facebook-blue);
+  cursor: pointer;
+}
+
+///
+.user_page_menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid var(--facebook-line-gray);
+}
+
+//
+.user_actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

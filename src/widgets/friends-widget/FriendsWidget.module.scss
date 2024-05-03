@@ -1,0 +1,20 @@
+.friends {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px gray solid;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.friends_images {
+  display: flex;
+  gap: 5px;
+}
+
+.friends_image {
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  border-radius: 50%;
+}

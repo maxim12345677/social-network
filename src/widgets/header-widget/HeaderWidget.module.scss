@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--background-primary);
+  padding: 10px 25px;
+}
+
+.logos {
+  display: flex;
+  gap: 8px;
+}
+
+.menu_content {
+  display: flex;
+  justify-content: space-between;
+}

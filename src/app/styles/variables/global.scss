@@ -1,0 +1,87 @@
+#root {
+  --facebook-white: #ffffff;
+  --facebook-black: #080808;
+  --facebook-green: #67ba6c;
+  --facebook-red: #de3f4f;
+  --facebook-gray: #66676b;
+  --facebook-blue: #0572ef;
+  --facebook-light-blue: #e9f3fe;
+  --facebook-light-gray: #e5e6eb;
+  --facebook-input-gray: #f1f2f5;
+  --facebook-line-gray: #cfd0d4;
+  --facebook-gray-medium: #8c939c;
+
+  // text
+  --text-primary: var(--facebook-black);
+  --text-primary-inverse: var(--facebook-white);
+  --text-secondary: var(--facebook-gray);
+  --text-hover: var(--facebook-light-gray);
+  --text-link: var(--facebook-blue);
+  --text-link-hover: var(--facebook-light-blue);
+  --text-error: var(--facebook-red);
+
+  // icons
+  --icons-primary: var(--facebook-gray);
+  --icons-primary-inverse: var(--facebook-light-gray);
+  --icons-secondary: var(--facebook-light-gray);
+  --icons-notifications: var(--facebook-red);
+  --icons-hover: var(--facebook-light-gray);
+
+  // background
+  --background-primary: var(--facebook-white);
+  --background-secondary: var(--facebook-light-gray);
+  --background-third: #f0f2f5;
+  --background-forth: linear-gradient(180deg, #6f6f7a 0%, #fff 47.92%);
+  --background-button: var(--facebook-blue);
+  --background-input: var(--facebook-input-gray);
+  --background-tertiary: gradient;
+  --background-modal: var(--facebook-white);
+
+  // shadow
+  --shadow-overlay: #{0 4px 8px shadow(5), 0 8px 24px shadow(10)};
+
+  // border
+  --border-stories-hover: #{color(orange, 70)};
+}
+
+html[data-theme="dark"] {
+  --facebook-white: #ffffff;
+  --facebook-black: #080808;
+  --facebook-green: #67ba6c;
+  --facebook-red: #de3f4f;
+  --facebook-gray: #66676b;
+  --facebook-blue: #0572ef;
+  --facebook-light-blue: #e9f3fe;
+  --facebook-light-gray: #e5e6eb;
+  --facebook-input-gray: #f1f2f5;
+  --facebook-line-gray: #cfd0d4;
+  --facebook-gray-medium: #8c939c;
+
+  // text
+  --text-primary: --facebook-black;
+  --text-primary-inverse: --facebook-white;
+  --text-secondary: --facebook-gray;
+  --text-hover: --facebook-light-gray;
+  --text-link: --facebook-blue;
+  --text-link-hover: --facebook-light-blue;
+  --text-error: --facebook-red;
+
+  // icons
+  --icons-primary: --facebook-gray;
+  --icons-primary-inverse: --facebook-light-gray;
+  --icons-secondary: --facebook-light-gray;
+  --icons-notifications: --facebook-red;
+  --icons-hover: --facebook-light-gray;
+
+  // background
+  --background-primary: --facebook-white;
+  --background-secondary: --facebook-light-gray;
+  --background-tertiary: gradient;
+  --background-modal: --facebook-white;
+
+  // shadow
+  --shadow-overlay: #{0 4px 8px shadow(5), 0 8px 24px shadow(10)};
+
+  // border
+  --border-stories-hover: #{color(orange, 70)};
+}

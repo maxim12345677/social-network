@@ -1,0 +1,16 @@
+.image {
+  width: 502px;
+  height: 281px;
+  background-color: black;
+  //// тут потом будет картинка
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: var(--background-primary);
+  padding: 5px;
+  border-radius: 8px;
+  width: 502px;
+}

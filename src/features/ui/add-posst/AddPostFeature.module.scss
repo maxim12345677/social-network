@@ -1,0 +1,20 @@
+.create {
+  width: 502px;
+  height: 88px;
+  background-color: var(--background-primary);
+  border-radius: 8px;
+}
+
+.user_picture {
+  width: 41px;
+  height: 41px;
+  background-color: var(--facebook-blue);
+  // тут потом будет фотка
+  border-radius: 50%;
+}
+
+.button {
+  width: 424px;
+  height: 41px;
+  border-radius: 6px;
+}

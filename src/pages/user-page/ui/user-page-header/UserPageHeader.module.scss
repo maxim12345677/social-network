@@ -1,0 +1,47 @@
+.root {
+  display: flex;
+  max-width: 240px;
+  gap: 28px;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.user_image {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  background-color: black;
+  /// тут потом будет картинка
+}
+
+.user_personal {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+//////
+.user_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+///
+.button {
+  width: 312px;
+  height: 40px;
+}
+//
+.more_button {
+  padding: 10px 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  height: 30px;
+  align-items: center;
+  margin-bottom: 20px;
+  color: var(--background-primary);
+}

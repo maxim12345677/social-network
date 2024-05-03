@@ -1,0 +1,29 @@
+.about {
+  width: 361px;
+  height: 288px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+  background-color: var(--background-primary);
+  border-radius: 8px;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video {
+  width: 100%;
+  height: 185px;
+  background-color: black;
+  // тут потом будет картинка
+}

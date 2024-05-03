@@ -1,0 +1,36 @@
+.root {
+  @include flex-column;
+  margin: 40px auto auto;
+  width: 100%;
+  min-height: 488px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--background-primary);
+  border-radius: 16px;
+
+  /*   @include newBreakpoint(tablet) {
+    margin-top: 60px;
+  } */
+}
+
+.img_wrap {
+  width: 280px;
+  height: 168px;
+  margin-bottom: 32px;
+
+  picture,
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.title,
+.text {
+  padding-bottom: 8px;
+}
+
+.btn {
+  margin-top: 32px;
+}

@@ -1,0 +1,19 @@
+.image {
+  width: 41px;
+  height: 41px;
+  border-radius: 50px;
+  background-color: blue;
+  // тут потом будет картинка
+}
+
+.info {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}

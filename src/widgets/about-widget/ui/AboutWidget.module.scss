@@ -1,0 +1,21 @@
+.about {
+  width: 361px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px;
+  background-color: var(--background-primary);
+  border-radius: 8px;
+}
+
+.titles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

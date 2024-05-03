@@ -1,0 +1,24 @@
+.commentbar {
+  width: 430px;
+  height: 36px;
+  border-radius: 100px;
+  background-color: var(--background-input);
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 0 15px;
+}
+
+.image {
+  background-color: blue;
+  /// тут потом будет картинка
+  border-radius: 50%;
+  width: 33px;
+  height: 33px;
+}
+
+.content {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
